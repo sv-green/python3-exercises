@@ -1,4 +1,4 @@
-num = int (input ("Input any num:"))
+num = int (input ("Input any num:")) #Any integer number
 if num > 0:
     print ("Number is bigger zero")
 elif num < 0:
