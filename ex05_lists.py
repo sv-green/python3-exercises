@@ -30,5 +30,7 @@ lst.reverse ()
 print (lst)
 lst.clear ()
 lst = [x * y for x in range(10) if x > 0 for y in range(-10,10) if y != 0]
+print (lst)
 #lst.sort ()
+lst = list ("Some words about lists") #Create list from string
 print (lst)
